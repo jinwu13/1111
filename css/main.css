@@ -1,0 +1,104 @@
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+/* 상단영역 */
+header{
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  position: absolute;
+  margin: 0 auto;
+  left: calc(50% - 550px);
+}
+header h1{
+  
+}
+header h1 a{
+  background-image: url(../img/hj_logo.jpg);
+  width: 230px;
+  height: 25px;
+  display: block;
+  font-size: 0;
+}
+h1{
+  
+}
+  
+nav{
+  display: flex;
+}
+ul{
+  display: flex; 
+}
+ul.gnb {
+    
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  }
+ul.gnb li{ /*클래스명이gnb인ul 아래에 위치한(있는) li*/
+          /*경기도 인천시 부평구 */
+    display: flex;
+  }
+ul.gnb li a{
+  
+  padding: 10px 30px;
+  display: block;
+}
+ul.gnb li a:hover{
+  color: red;
+  border-top: 1px solid blue;
+}
+ul.etcmenu{
+  position: absolute;
+  top: 5px;
+  right: 0px;
+}
+ul.etcmenu li{
+  
+}
+ul.etcmenu li a{
+  padding: 5px 12px;
+  font-size: 13px;
+}
+ul.etcmenu li a:hover{
+  color: red
+}
+    
+li{
+  
+}
+div#title{
+   height: 600px;
+  border: 1px solid red;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(../img/title.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-y: 80%;
+}
+/* 타이틀영역 */
+div#title h2{
+  font-size: 30px;
+  margin-bottom: 48px;
+}
+div#title h2 span{
+  
+  font-weight: bold;
+}
+div#title p{
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+div#title a{
+  
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
