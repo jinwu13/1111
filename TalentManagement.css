@@ -1,0 +1,79 @@
+ section {
+    
+  }
+  section div {
+     
+  }
+  section div h2 {
+     
+  margin-bottom: 30px;
+  font-size: 28px;
+  }
+  section div h3{
+  
+  font-size: 28px;
+  border-top: 1px solid #ccc;
+  line-height: 1.1;
+  }
+  section div p{  
+  padding-bottom: 30px;
+  color: #999;
+  line-height: 22px;
+  }
+  section div span{
+  
+}
+  section div li{
+  
+  display: grid;
+  column-gap: 30px;
+  row-gap: 16px;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 20% calc(70% - 30px);
+}
+section div ul li h3{
+  
+}
+  section div div {
+  display: grid;
+  column-gap: 30px;
+  row-gap: 16px;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 40% calc(60% - 30px);
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  }
+  section div div h2{
+  
+}
+  section div div h3{
+  font-size: 24px;
+  border: none;
+}
+section div div p{
+  
+}
+  section div div figure {
+     
+  grid-row: 1 / span 2;
+  border: none;
+  }
+section div div li{
+  
+  line-height: 1.1;
+  display: flex;
+  margin-top: 15px;
+}
+section div div li::before{
+  content:"⋄";
+}
+  section div div ul {
+     
+  }
+ section div div ul li {
+     
+  }
+  section div div ul li h3{
+
+  }
+  
